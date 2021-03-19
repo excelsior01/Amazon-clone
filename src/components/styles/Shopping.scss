@@ -1,0 +1,60 @@
+.home__container {
+  width: 100vw;
+
+  height: 100%;
+  background: rgb(19, 18, 18);
+}
+
+.home__image {
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+  height: 600px;
+  mask-image: linear-gradient(to bottom, rgb(95, 1, 1), rgba(0, 0, 0, 0.425));
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.home__row {
+  display: flex;
+  z-index: 1;
+  margin: 0 5px 5px 5px;
+  position: relative;
+  top: -100px;
+}
+
+.hero__message {
+  position: relative;
+  z-index: 5;
+  right: -150px;
+  top: -350px;
+  text-align: right;
+  border-bottom: 100px solid rgba(0, 0, 0, 0);
+  border-left: 50px solid transparent;
+  border-right: 0px solid transparent;
+  max-width: 80%;
+  background: rgba(0, 0, 0, 0.61);
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.363);
+  padding: 5px 20px;
+  scroll-behavior: smooth;
+
+  &:hover {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0);
+  }
+
+  h3 {
+    font-size: 5rem;
+    color: white;
+  }
+  p {
+    color: rgb(255, 0, 64);
+    font-size: 4rem;
+    text-align: right;
+  }
+}

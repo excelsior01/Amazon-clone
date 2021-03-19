@@ -1,0 +1,157 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  //background: #143563;
+}
+.login__wrapper {
+  border: 1px solid;
+  border-radius: 10px;
+  min-width: 300px;
+  padding: 10px;
+  color: white;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+
+  h5 {
+    text-align: center;
+  }
+  input {
+    flex: left;
+    width: 400px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-200px);
+    margin: 5px 0;
+
+    &:focus {
+      outline-style: outset;
+      outline-color: #ff0040;
+    }
+  }
+}
+.login__part2 {
+  margin-top: 3rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+}
+
+.logo__container2 {
+  width: 80%;
+  color: white;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  .header__logo {
+    color: #ff0040;
+  }
+}
+
+.formp {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.form__register_button {
+  margin-top: 10px;
+  background: #fff;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.form__login_button {
+  position: relative;
+  left: 50%;
+  transform: translateX(-100px);
+  background: #fff;
+  border-radius: 5px;
+  margin: 20px 0;
+  width: 200px;
+}
+
+.login__formContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn.btn-border-3::after,
+.btn.btn-border-3::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  transition: 0.5s;
+}
+
+.btn.btn-border-3::after {
+  top: -9px;
+  left: -9px;
+  border-top: 3px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.btn.btn-border-3::before {
+  bottom: -9px;
+  right: -9px;
+  border-bottom: 3px solid transparent;
+  border-right: 3px solid transparent;
+}
+
+.btn.btn-border-3:hover {
+  color: black;
+}
+
+.btn.btn-border-3:hover::after,
+.btn.btn-border-3:hover::before {
+  width: 30px;
+  height: 30px;
+  border-color: white;
+}
+
+.btn.btn-border-4::after,
+.btn.btn-border-4::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  transition: 0.5s;
+}
+
+.btn.btn-border-4::after {
+  top: -9px;
+  left: -9px;
+  border-top: 3px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.btn.btn-border-4::before {
+  bottom: -9px;
+  right: -9px;
+  border-bottom: 3px solid transparent;
+  border-right: 3px solid transparent;
+}
+
+.btn.btn-border-4:hover {
+  color: #222222;
+}
+
+.btn.btn-border-4:hover::after,
+.btn.btn-border-4:hover::before {
+  width: calc(100% + 15px);
+  height: calc(100% + 15px);
+  border-color: #ff0040;
+}

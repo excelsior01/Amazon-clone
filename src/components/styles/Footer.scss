@@ -1,0 +1,63 @@
+.footer {
+  max-width: 100vw;
+  height: 100%;
+  background: rgb(0, 0, 19);
+  margin: 0;
+  padding: 2rem 5rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+
+  .section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    .socials {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+
+  .sec1 {
+    padding-bottom: 10px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+    .footer__item {
+      width: 25%;
+      color: white;
+
+      .footer__item_link {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        color: white;
+        flex-direction: column;
+
+        &:hover {
+          color: rgb(255, 0, 64);
+        }
+      }
+    }
+  }
+}
+
+.twitter:hover {
+  color: #00acee;
+}
+
+.facebook:hover {
+  color: #3b5998;
+}
+
+.instagram:hover {
+  color: #8a3ab9;
+}

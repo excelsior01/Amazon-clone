@@ -1,0 +1,41 @@
+.checkout {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  //background-color: #143563;
+  text-align: start;
+  justify-content: space-between;
+  color: white;
+  position: relative;
+}
+
+.checkout__top {
+  display: flex;
+  flex-direction: row;
+}
+
+.checkout__ad {
+  width: 800px;
+  height: 300px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.checkout__title {
+  margin-right: 10px;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.checkout__left {
+  width: 70%;
+}
+
+.checkout__items {
+  width: 100%;
+  position: relative;
+  top: 0;
+}
