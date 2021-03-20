@@ -15,7 +15,7 @@ import Footers from "./components/Footers.jsx";
 import { AnimatePresence } from "framer-motion";
 
 const promise = loadStripe(
-  "pk_test_51HfXmBKWrh9SDsTInoZ0Xt5fS2Vr05hAGkUMRrTD7CjNFNrVDJROeYK22jvxfm5OY4oQdKqPuekk6n8rdRcly4TN00Sxy4Lhgj"
+  "yourkey"
 );
 
 function App() {
